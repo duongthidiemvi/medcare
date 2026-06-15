@@ -11,7 +11,7 @@ import WaitlistPage from "./pages/WaitlistPage";
 
 export default function AppWrapper() {
   return (
-    <BrowserRouter basename="/medcare">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   );
